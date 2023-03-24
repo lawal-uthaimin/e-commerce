@@ -1,0 +1,16 @@
+carrt.addEventListener('click', e =>{
+  if(e.target.classList === 'fas fa-trash'){
+    e.target.remove()
+  }
+})
+
+
+
+
+let cop = document.querySeleelector('.copy-me');
+cop.addEventListener('copy', e =>{
+  e.preventDefault()
+  let text = `<span style="font-size: 30px">my content is copy-right we are sorry you cant copy our code<br>. Though the right click might be for another purpose but sorry  we do not allow it <span>all right reserved copy-right protected</span> </span>`
+  cop.innerHTML = text;
+  scrollTo(190000,190000); ctor('.mmn')
+})
